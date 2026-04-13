@@ -14,7 +14,8 @@
     "lint:fix": "bunx eslint src --ext .ts,.tsx --fix",
     "typecheck": "bunx tsc --noEmit",
     "format": "bunx prettier --write \"src/**/*.{ts,tsx,json}\"",
-    "ci": "bun run typecheck && bun run lint && bun run test"
+    "ci": "bun run typecheck && bun run lint && bun run test",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@letta-ai/letta-client": "^0.1.0",
