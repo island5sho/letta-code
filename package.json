@@ -36,5 +36,11 @@
     "type": "git",
     "url": "https://github.com/me/letta-code",
     "upstream": "https://github.com/letta-ai/letta-code"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "tabWidth": 2,
+    "printWidth": 100
   }
 }
