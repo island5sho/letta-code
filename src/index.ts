@@ -11,7 +11,7 @@ const { values, positionals } = parseArgs({
   options: {
     version: { type: "boolean", short: "v" },
     help: { type: "boolean", short: "h" },
-    model: { type: "string", short: "m", default: "gpt-4o" },
+    model: { type: "string", short: "m", default: "gpt-4o-mini" },
     context: { type: "string", short: "c" },
     debug: { type: "boolean", default: false },
   },
@@ -30,7 +30,7 @@ Usage:
 Options:
   -v, --version        Print version and exit
   -h, --help           Show this help message
-  -m, --model <name>   LLM model to use (default: gpt-4o)
+  -m, --model <name>   LLM model to use (default: gpt-4o-mini)
   -c, --context <dir>  Working directory for code execution (default: cwd)
   --debug              Enable verbose debug logging
 
